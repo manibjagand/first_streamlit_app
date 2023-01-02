@@ -6,7 +6,6 @@ st.title(' My parents New Healthy Diner')
 #streamlit.add('Menu Content')
 #st.write('Menu Content')
 st.header('Breakfast Menu')
-
 st.header(':mango:')
 st.header(':kiwi_fruit:')
 st.text('🥣 omega 3 & Blueberry Oatmeal')
