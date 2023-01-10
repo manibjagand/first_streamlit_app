@@ -25,4 +25,4 @@ streamlit.header('Fruityvice Fruit Advice!')
 import requests as r
 
 fruityvice_response = r.get("https://fruityvice.com/api/fruit/watermelon")
-streamlit.text(fruityvice_response.json())
+st.text(fruityvice_response.json())
