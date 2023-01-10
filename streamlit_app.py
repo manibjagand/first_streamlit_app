@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 
-st.title(' My Mom''''s New Healthy Diner')
+st.title(' My Mom '''''s New Healthy Diner')
 
 #streamlit.add('Menu Content')
 #st.write('Menu Content')
