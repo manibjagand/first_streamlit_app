@@ -45,4 +45,4 @@ st.header("The Fruit Load Contains:")
 st.dataframe(my_data_rows)
 
 add_my_fruit = st.text_input('What fruit would you like to add?','Kiwi')
-st.write('The user entered ', add_my_fruit)
+st.write('Thanks for adding ', add_my_fruit)
