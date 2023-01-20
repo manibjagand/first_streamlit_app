@@ -58,6 +58,7 @@ if st.button('Get Fruit Load List'):
     my_cur = my_cnx.cursor()
     my_data_row = get_fruit_load_list()
     st.dataframe(my_data_rows)
+    
 st.stop()
 add_my_fruit = st.text_input('What fruit would you like to add?','Kiwi')
 st.write('Thanks for adding ', add_my_fruit)
