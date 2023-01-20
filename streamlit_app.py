@@ -56,7 +56,7 @@ def get_fruit_load_list():
 if st.button('Get Fruit Load List'):
     my_cnx = sc.connect(**st.secrets["snowflake"])
     my_cur = my_cnx.cursor()
-    my_data_row = get_fruit_load_list()
+    my_data_rows = get_fruit_load_list()
     st.dataframe(my_data_rows)
     
 st.stop()
