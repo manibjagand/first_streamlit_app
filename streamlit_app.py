@@ -44,7 +44,7 @@ try:
 except URLError as e:
     st.error()
 #don't run anything past here while we troubleshoot
-st.stop()
+#st.stop()
 st.header("The Fruit Load list Contains:")
 #Snowflake-related functions
 def get_fruit_load_list():
